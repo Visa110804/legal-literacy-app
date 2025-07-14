@@ -1,0 +1,60 @@
+body {
+    background-image: url('BG.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    height: 100vh; /* Make body height equal to viewport height */
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    color: #2ecc71; /* Green color for Explore Mode */
+}
+
+.dashboard-button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #3498db;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.dashboard-button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.button-container {
+    margin-top: 30px;
+}
+
+.chapter-button {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #2ecc71; /* Green color for buttons */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.chapter-button:hover {
+    background-color: #27ae60; /* Darker green color on hover */
+}
