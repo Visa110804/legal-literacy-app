@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modes</title>
+    <link rel="stylesheet" href="ModeSelstyle.css">
+    <style>
+        body {
+            background-image: url('modesBG.png'); 
+            background-size: cover; /* Adjust the background size as needed */
+            background-position: center; /* Center the background image */
+            background-repeat: no-repeat; /* Prevent the background image from repeating */
+            margin: 0; /* Remove default margin for the body */
+            font-family: 'Arial', sans-serif;
+            color: #fff; /* Set text color */
+        }
+
+        h1 {
+            text-align: center; /* Center-align the heading */
+        }
+        .highlight {
+            background-color: #ffd700; /* Yellow background color */
+            padding: 10px; /* Padding around the text */
+            border-radius: 5px; /* Rounded corners */
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.3); /* Shadow effect */
+            font-weight: bold; /* Bold text */
+            color: #333; /* Text color */
+        }
+        .specific-position {
+            position: absolute; /* Position the text relative to the nearest positioned ancestor */
+            top: 180px; /* Distance from the top of the page */
+            left: 29%; /* Distance from the left of the page */
+            transform: translateX(-50%); /* Center the text horizontally */
+            font-size: 24px; /* Font size */
+            color: #333; /* Text color */
+            text-align: center;
+            padding: 20px; /* Add padding for spacing */
+            background-color: rgb(168, 157, 157); /* Background color */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.3); /* Shadow effect */
+          }
+          .specific-position-new {
+            position: absolute; /* Position the text relative to the nearest positioned ancestor */
+            top: 490px; /* Distance from the top of the page */
+            left: 70%; /* Distance from the left of the page */
+            transform: translateX(-50%); /* Center the text horizontally */
+            font-size: 24px; /* Font size */
+            color: #333; /* Text color */
+            text-align: center;
+            padding: 20px; /* Add padding for spacing */
+            background-color: rgb(168, 157, 157); /* Background color */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.3); /* Shadow effect */
+          }
+          .styled-image {
+            border: 5px solid #ccc; /* Border color and width */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.3); /* Shadow effect */
+          }
+    </style>
+</head>
+<body>
+    <div id="google_translate_element"></div>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script>
+        function googleTranslateElementInit(){
+            new google.translate.TranslateElement(
+                {pageLanguage: 'en'},
+                'google_translate_element'
+            );
+        }
+    </script>
+    <h1 style="color: black; font-family: 'Helvetica', sans-serif; text-align: center; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);">Please select desired mode!</h1>
+    <div class="button-container">
+        <button id="button1" >
+            <a href="ExploreMode.html">
+            <img class="styled-image" src="https://as2.ftcdn.net/v2/jpg/03/33/65/39/1000_F_333653970_OTPeBdbYmP9AoQKfbb67vgREVOdszW0D.jpg" alt="Explore" height="200px" width="200px">
+        
+            </a>
+        </button>
+        <button id="button2" >
+            <a href="JourneyMode.html">
+            <img class="styled-image" src="https://static.vecteezy.com/system/resources/thumbnails/004/264/244/small/roadway-journey-to-the-future-asphalt-street-isolated-on-white-background-symbols-way-to-the-goal-of-the-end-point-path-mean-successful-business-planning-suitable-for-advertising-and-presentstation-vector.jpg" alt="Journey" height="300px" width="300px">
+    
+            </a>
+        </button>
+    </div>
+
+    <p class="specific-position">Explore Mode:<br>
+    Explore your interests!</p>
+    <p class="specific-position-new">Journey Mode:<br>
+        Let's start journey!</p>
+
+</body>
+</html>
